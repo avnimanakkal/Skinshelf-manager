@@ -8,7 +8,7 @@ People often buy many skincare products but forget when each one was opened, kee
 - Adding, viewing, editing and deleting skincare products
 - Tracking each product's open date and shelf life
 - Flagging products as Fresh, Use Soon or Expired
-- Detecting shared and clashing ingredients between products
+- Detecting shared and clashing key active ingredients (e.g. retinol, vitamin C) between products
 - Showing total spending per product category
 - Saving data to a file so it is available on the next run
 
@@ -25,7 +25,7 @@ People often buy many skincare products but forget when each one was opened, kee
 ## High-Level Features
 1. **Product Manager:** add, view, edit and delete products
 2. **Expiry Tracker:** shows the status of every product based on open date and shelf life
-3. **Ingredient Checker:** finds common and clashing ingredients using set operations
+3. **Ingredient Checker:** Ingredient Checker: finds common and clashing key active ingredients using set operations
 4. **Spending Report:** shows total spent per category
 5. **Data Storage:** saves and loads products automatically
 6. **Input Validation:** handles wrong inputs without crashing
